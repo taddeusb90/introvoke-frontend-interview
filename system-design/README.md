@@ -145,7 +145,7 @@ Example:
         sentiment: "number" // -1, 1, 0 
       }
     ``` 
-    Resulting objects can be saved in 
+    Resulting objects can be saved in Postgres.
 # Message Aggregator
 
   Is a Node.js based service that consumes messages sent from **Inference pod** and aggregates them in memory on a minute by minute basis. All messages that are recieved in a minute are aggregated in to  get the below object: 
