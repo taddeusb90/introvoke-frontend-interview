@@ -5,7 +5,7 @@ import App from "./App";
 test("renders learn react link", () => {
   render(<App />);
   const headerElement = screen.getByText(
-    /Welcome to the Introvoke Frontend Interview Project!/i
+    /Enter your username.../i
   );
   expect(headerElement).toBeInTheDocument();
 });
